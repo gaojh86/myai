@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from collections import Counter
 
-
 # KNN 实现
 def knn_predict(X_train, y_train, X_test, k=3):
     predictions = []

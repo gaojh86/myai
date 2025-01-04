@@ -1,4 +1,6 @@
 import numpy as np
+# import matplotlib
+# matplotlib.use('TkAgg')  # 设置后端为 TkAgg
 import matplotlib.pyplot as plt
 
 # 示例数据

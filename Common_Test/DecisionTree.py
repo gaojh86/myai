@@ -1,4 +1,5 @@
 import numpy as np
+from collections import Counter
 
 class DecisionTree:
     def __init__(self, depth=0, max_depth=3):
