@@ -9,7 +9,7 @@ plt.rcParams['axes.unicode_minus'] = False  # 处理负号的显示问题
 # 生成示例数据  
 X, _ = make_blobs(n_samples=300, centers=4, cluster_std=0.60, random_state=0)  
 
-# 创建 K均值模型  
+# 创建K均值模型
 kmeans = KMeans(n_clusters=4)  
 kmeans.fit(X)  
 y_kmeans = kmeans.predict(X)  
